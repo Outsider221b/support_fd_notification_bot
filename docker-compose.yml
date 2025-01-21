@@ -1,0 +1,6 @@
+services:
+  bot-app:
+    build:
+      context: .
+    volumes:
+      - .:/bot-app
